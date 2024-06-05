@@ -20,8 +20,6 @@ Future<Null> main(Iterable<String> arguments) async {
     exit(0);
   }
 
-  // TODO: Move validation to the Configuration itself for easier testing
-
   if (config.builder == null) {
     outputError('Builder "${config.builderName}" was not found');
     exit(1);
