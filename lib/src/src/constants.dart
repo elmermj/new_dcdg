@@ -1,0 +1,2 @@
+// PlantUML constants
+const namespaceSeparator = '::';
