@@ -12,6 +12,7 @@ and the Flutter guide for
 -->
 ## How To Use
 
-Run this line on your terminal
-flutter pub global run dcdg
+Run this line on your terminal 
+
+``flutter pub global run dcdg``
 
