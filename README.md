@@ -12,7 +12,7 @@ and the Flutter guide for
 -->
 ## Info
 
-This is a Dart Code Diagram Generator. This library's main purpose is to autoamtically generate UML diagram from your Flutter/Dart source code.
+This is a Dart Code Diagram Generator. This library's main purpose is to automatically generate UML diagram from your Flutter/Dart source code.
 
 ## How To Use
 
