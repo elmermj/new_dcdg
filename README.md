@@ -10,6 +10,10 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
+## Info
+
+This is a Dart Code Diagram Generator. This library's main purpose is to autoamtically generate UML diagram from your Flutter/Dart source code.
+
 ## How To Use
 
 Run this line on your terminal 
