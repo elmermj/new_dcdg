@@ -14,7 +14,7 @@ dependencies:
   path: ^1.9.0
   
 executables:
-  new_dcdg: bin/new_dcdg.dart
+  new_dcdg: bin/dcdg.dart
 
 dev_dependencies:
   lints: ^3.0.0
