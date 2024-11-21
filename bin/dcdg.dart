@@ -53,12 +53,20 @@ Future<Null> main(Iterable<String> arguments) async {
     verbose: config.verbose,
   );
 
+  // Output the diagram as a PlantUML file
   if (config.outputPath == '') {
     builder.printContent(print);
   } else {
     final outFile = File(config.outputPath);
     try {
+      if (!outFile.path.endsWith('.puml')) {
+        outputError(
+          'Output file must have a .puml extension to save as PlantUML.',
+        );
+        exit(1);
+      }
       builder.writeContent(outFile);
+      print('PlantUML diagram saved to: ${outFile.path}');
     } on FileSystemException catch (exception) {
       outputError(
         'Failed writing to file ${exception.path} (${exception.osError})',

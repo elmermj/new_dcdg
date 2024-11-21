@@ -16,7 +16,11 @@ This is a Dart Code Diagram Generator. This library's main purpose is to automat
 
 ## How To Use
 
-Run this line on your terminal 
+Open this repo in your IDE and run this line on your terminal
 
-``flutter pub global run dcdg``
+``dart bin/dcdg.dart --package=/path/to/package/or/project --output=/path/to/output/filename.puml;``
+
+## Notes
+
+You will need to install Graphviz on your machine and add it to your PATH. If you're using VS Code, you need to also install the PlantUML extension.
 
