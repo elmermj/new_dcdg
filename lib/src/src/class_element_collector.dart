@@ -31,3 +31,4 @@ class ClassElementCollector extends RecursiveElementVisitor<void> {
   }
 }
 
+  
